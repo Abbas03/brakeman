@@ -13,3 +13,5 @@ jobs:
           ruby-version: 3.0.3
       - name: brakeman
         uses: reviewdog/action-brakeman@v2 ##
+        with:
+           flags: "--force"
