@@ -14,4 +14,4 @@ jobs:
       - name: brakeman
         uses: reviewdog/action-brakeman@v2 ##
         with:
-           flags: "--force"
+          brakeman_flags: --force
